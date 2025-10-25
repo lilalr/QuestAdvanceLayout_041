@@ -70,3 +70,17 @@ fun ActivitasKedua(modifier: Modifier = Modifier) {
                 Image(
                     painter = painterResource(id = R.drawable.lila),
                     contentDescription = "Profile Picture",
+                    contentScale = ContentScale.Fit,
+                    modifier = Modifier
+                        .fillMaxSize()
+                )
+            }
+
+            Spacer(modifier = Modifier.height(16.dp))
+
+            // Social Media Icons
+            Row(
+                horizontalArrangement = Arrangement.Center,
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier.padding(vertical = 8.dp)
+            ) {
