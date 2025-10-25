@@ -49,3 +49,11 @@ fun ActivitasKedua(modifier: Modifier = Modifier) {
             .fillMaxSize()
             .background(Color.Black)
     ) {
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .verticalScroll(state = rememberScrollState())
+                .padding(horizontal = 32.dp)
+                .padding(bottom = 80.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
