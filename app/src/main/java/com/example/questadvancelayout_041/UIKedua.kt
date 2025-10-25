@@ -163,3 +163,14 @@ fun ActivitasKedua(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(32.dp))
 
+
+            Card(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 16.dp)
+                    .height(50.dp),
+                colors = CardDefaults.cardColors(
+                    containerColor = Color.Red
+                ),
+                shape = RoundedCornerShape(70.dp)
+            ) {
