@@ -132,3 +132,9 @@ fun ActivitasKedua(modifier: Modifier = Modifier) {
                 color = Color.White
             )
 
+            Text(
+                text = "@lilarraa",
+                fontSize = 14.sp,
+                color = Color.Gray
+            )
+
