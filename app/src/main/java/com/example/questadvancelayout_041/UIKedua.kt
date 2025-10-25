@@ -60,3 +60,19 @@ fun ActivitasKedua(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(60.dp))
 
+            Box(
+                modifier = Modifier
+                    .size(100.dp)
+                    .clip(CircleShape)
+                    .background(Color.Transparent),
+                contentAlignment = Alignment.Center
+            ) {
+                Image(
+                    painter = painterResource(id = R.drawable.lila),
+                    contentDescription = "Profile Picture",
+                    contentScale = ContentScale.Fit,
+                    modifier = Modifier
+                        .fillMaxSize()
+                )
+            }
+
