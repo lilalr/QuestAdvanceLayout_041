@@ -102,3 +102,12 @@ fun ActivitasKedua(modifier: Modifier = Modifier) {
                         .padding(horizontal = 4.dp)
                         .clip(CircleShape)
                 )
+                Image(
+                    painter = painterResource(id = R.drawable.twitter),
+                    contentDescription = "Twitter",
+                    contentScale = ContentScale.Crop,
+                    modifier = Modifier
+                        .size(size = 45.dp)
+                        .padding(horizontal = 4.dp)
+                        .clip(CircleShape)
+                )
