@@ -111,3 +111,14 @@ fun ActivitasKedua(modifier: Modifier = Modifier) {
                         .padding(horizontal = 4.dp)
                         .clip(CircleShape)
                 )
+                Image(
+                    painter = painterResource(id = R.drawable.its),
+                    contentDescription = "Institut Teknologi Sepuluh November",
+                    contentScale = ContentScale.Crop,
+                    modifier = Modifier
+                        .size(size = 45.dp)
+                        .padding(horizontal = 4.dp)
+                        .clip(CircleShape)
+                )
+            }
+
