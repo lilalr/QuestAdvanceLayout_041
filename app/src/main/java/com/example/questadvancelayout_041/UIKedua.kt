@@ -44,3 +44,8 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun ActivitasKedua(modifier: Modifier = Modifier) {
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(Color.Black)
+    ) {
