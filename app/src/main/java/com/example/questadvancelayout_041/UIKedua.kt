@@ -146,3 +146,5 @@ fun ActivitasKedua(modifier: Modifier = Modifier) {
                 color = Color.White
             )
 
+            Spacer(modifier = Modifier.height(32.dp))
+
