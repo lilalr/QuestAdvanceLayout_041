@@ -148,3 +148,16 @@ fun ActivitasKedua(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(32.dp))
 
+            // Menu Items (Lebarnya dibatasi oleh padding Column induk)
+            MenuItemCard(
+                icon = Icons.Default.Lock, title = "Privacy"
+            )
+            Spacer(modifier = Modifier.height(12.dp))
+            MenuItemCard(
+                icon = Icons.Default.AccountCircle, title = "Riwayat Transaksi"
+            )
+            Spacer(modifier = Modifier.height(12.dp))
+            MenuItemCard(
+                icon = Icons.Default.Settings, title = "Pengaturan"
+            )
+
