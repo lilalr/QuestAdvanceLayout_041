@@ -163,7 +163,6 @@ fun ActivitasKedua(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(32.dp))
 
-
             Card(
                 modifier = Modifier
                     .fillMaxWidth()
@@ -174,3 +173,16 @@ fun ActivitasKedua(modifier: Modifier = Modifier) {
                 ),
                 shape = RoundedCornerShape(70.dp)
             ) {
+                Row(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(horizontal = 16.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.Center
+                ) {
+                    Icon(
+                        imageVector = Icons.Default.Person,
+                        contentDescription = "Logout",
+                        tint = Color.White
+                    )
+
