@@ -70,11 +70,3 @@ fun ActivitasKedua(modifier: Modifier = Modifier) {
                 Image(
                     painter = painterResource(id = R.drawable.lila),
                     contentDescription = "Profile Picture",
-                    contentScale = ContentScale.Fit,
-                    modifier = Modifier
-                        .fillMaxSize()
-                )
-            }
-
-            Spacer(modifier = Modifier.height(16.dp))
-
