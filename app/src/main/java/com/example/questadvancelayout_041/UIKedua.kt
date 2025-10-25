@@ -84,3 +84,12 @@ fun ActivitasKedua(modifier: Modifier = Modifier) {
                 verticalAlignment = Alignment.CenterVertically,
                 modifier = Modifier.padding(vertical = 8.dp)
             ) {
+                Image(
+                    painter = painterResource(id = R.drawable.instagram),
+                    contentDescription = "Instagram",
+                    contentScale = ContentScale.Crop,
+                    modifier = Modifier
+                        .size(size = 45.dp)
+                        .padding(horizontal = 4.dp)
+                        .clip(CircleShape)
+                )
