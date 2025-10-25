@@ -140,4 +140,9 @@ fun ActivitasKedua(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(4.dp))
 
-            T
+            Text(
+                text = "Application Developer",
+                fontSize = 16.sp,
+                color = Color.White
+            )
+
