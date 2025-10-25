@@ -215,3 +215,24 @@ fun ActivitasKedua(modifier: Modifier = Modifier) {
     }
 }
 
+@Composable
+fun SocialMediaIcon(
+    icon: ImageVector
+) {
+    Box(
+        modifier = Modifier
+            .size(40.dp)
+            .clip(CircleShape)
+            .background(Color(0xFF4169E1))
+            .border(2.dp, Color(0xFF4169E1), CircleShape),
+        contentAlignment = Alignment.Center
+    ) {
+        Icon(
+            imageVector = icon,
+            contentDescription = "Social Media",
+            tint = Color.White,
+            modifier = Modifier.size(20.dp)
+        )
+    }
+}
+
