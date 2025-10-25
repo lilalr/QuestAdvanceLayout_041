@@ -161,3 +161,5 @@ fun ActivitasKedua(modifier: Modifier = Modifier) {
                 icon = Icons.Default.Settings, title = "Pengaturan"
             )
 
+            Spacer(modifier = Modifier.height(32.dp))
+
