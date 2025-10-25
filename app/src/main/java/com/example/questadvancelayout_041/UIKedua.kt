@@ -57,3 +57,6 @@ fun ActivitasKedua(modifier: Modifier = Modifier) {
                 .padding(bottom = 80.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
+
+            Spacer(modifier = Modifier.height(60.dp))
+
